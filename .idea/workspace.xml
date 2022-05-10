@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/if else/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/if else/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/loop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/loop/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="function" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -32,7 +33,7 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/loop/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/js/loop/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/if else/index.html" useBuiltInWebServerPort="true">
@@ -46,7 +47,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.main.js" />
@@ -66,10 +66,34 @@
       <workItem from="1651940763868" duration="1668000" />
       <workItem from="1651995391059" duration="12238000" />
       <workItem from="1652117516899" duration="623000" />
+      <workItem from="1652185434828" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
