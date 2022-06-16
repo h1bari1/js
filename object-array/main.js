@@ -72,14 +72,5 @@ var col = +prompt("Col")
 //     return matrix;
 // }
 
-function createMatrix(row, col) {
-    var matrix = new Array(row)
-    matrix.forEach(function (item, index) {
-        var random = Math.ceil(Math.random() * 100);
-        console.log(item)
-        item.push(random);
-    })
-    return matrix;
-}
-
-console.log(createMatrix(row, col))
+//
+// console.log(createMatrix(row, col))
