@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="Complete 3 tasks">
-      <change afterPath="$PROJECT_DIR$/closure-callback/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/if else/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/if else/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/closure-callback/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object-array/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/object-array/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion-stack/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion-stack/main.js" beforeDir="false" />
-    </list>
+    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="Complete 2 tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +91,7 @@
       <workItem from="1655533857274" duration="9813000" />
       <workItem from="1655720992051" duration="1292000" />
       <workItem from="1655729995941" duration="253000" />
-      <workItem from="1655748851993" duration="962000" />
+      <workItem from="1655748851993" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="init: object-array directory">
       <created>1654695315155</created>
@@ -142,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655381200585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Complete 2 tasks">
+      <created>1655750008016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655750008016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +158,8 @@
     <MESSAGE value="2,3,4 task" />
     <MESSAGE value="edit task 4" />
     <MESSAGE value="Complete 3 tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete 3 tasks" />
+    <MESSAGE value="Complete 2 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete 2 tasks" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
