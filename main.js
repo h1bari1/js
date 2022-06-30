@@ -1,4 +1,4 @@
-var body = document.body
+// var body = document.body
 // var child = body.firstChild
 // var child = body.lastChild
 // var child = body.childNodes //получение всех элементов ввиде коллекции----->
@@ -119,11 +119,29 @@ var body = document.body
 // elem.classList.toggle('test')  // добавляет если нет, убирает если есть
 // --------------------
 
-var elem = document.querySelector('.list-link');   // Стили
+// var elem = document.querySelector('.list-link');   // Стили
 // elem.style.color = 'black'
 // elem.style.marginTop = 10 + 'px'
 // elem.style.cssText = 'margin-left: 50px; color:red;'
 
-var style = getComputedStyle(elem,"::before")// получить стили элемента, так же способ обратиться к псевдоэлементк
-console.log(style.fontSize) // получить определенное свойство (parseInt - если нужно только число)
+// var style = getComputedStyle(elem,"::before")// получить стили элемента, так же способ обратиться к псевдоэлементк
+// console.log(style.fontSize) // получить определенное свойство (parseInt - если нужно только число)
+// --------------------------------------------
+// var elem = document.querySelector('.list-link');
+// var input = document.querySelector('input');
+// var link = elem.href //олучение ссылки элемента
+// var value = input.value получение значения input
+// console.log(link)
+// console.log(value)
+// --------------------------------------------
 
+// var input = document.querySelector('input');
+// // var check = input.hasAttribute('data-toggle') //проверка на наличие атрибута
+// // var attr = input.getAttribute('data-toggle')  // получить имеющийся атрибут
+// // input.setAttribute('data-toggle','test')  // заменить значение атрибута либо добавить новый
+// // input.removeAttribute('data-toggle')  // удалить атрибут
+// var data = input.dataset
+// // console.log(check)
+// // console.log(attr)
+// // console.log(input)
+// console.log(data)
