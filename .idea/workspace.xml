@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/js/loop/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -58,15 +59,19 @@
     <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/loop/main.js" working-dir="$PROJECT_DIR$/loop">
       <method v="2" />
     </configuration>
+    <configuration name="main.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/if else/main.js" working-dir="$PROJECT_DIR$/if else">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="Node.js.main.js (2)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +90,13 @@
       <workItem from="1652117516899" duration="623000" />
       <workItem from="1652185434828" duration="41000" />
       <workItem from="1656401879284" duration="751000" />
+      <workItem from="1656497781328" duration="485000" />
+      <workItem from="1656498311538" duration="217000" />
+      <workItem from="1656498553536" duration="90000" />
+      <workItem from="1656498661992" duration="530000" />
+      <workItem from="1656499209620" duration="7173000" />
+      <workItem from="1656521423769" duration="4329000" />
+      <workItem from="1656577937654" duration="6650000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1655917690288</created>
