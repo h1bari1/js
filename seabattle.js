@@ -8,11 +8,14 @@ function generateRow(letterField){
     for (var i = 0; i < field.length; i++) {
         var div = document.createElement('div')
         var nameField = document.createElement('span')
+        var textMessage = document.createElement('div')
         div.classList.add('square')
         nameField.classList.add('name-field')
+        textMessage.classList.add('text-message')
         nameField.innerHTML = (i + 1) +' - '+ letterField
         wrap.append(div)
         div.append(nameField)
+        div.setAttribute('data-id',(i + 1) +' - '+ letterField)
     }
 
 }
@@ -22,12 +25,23 @@ function generateField() {
     })
 }
 generateField()
-var square = wrap.children
 
-square.addEventListener('click', function (e){
-    console.log(e.currentTarget)
-    // divs.stopPropagation()
+var square = document.querySelectorAll('.square')
+square.forEach(function (elem){
+    elem.addEventListener('click',function (e){
+        var check = elem.matches('.square')
+        var listCheck = ships.includes(elem.dataset.id)
+        if(check && listCheck){
+            elem.classList.add('damage')
+            elem.innerHTML = '💥'
+        } else {
+            elem.classList.add('miss')
+            elem.innerHTML = '❌'
+
+        }
+    })
 })
+
 
 
 

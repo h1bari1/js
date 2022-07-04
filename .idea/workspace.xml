@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="dom">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seabattle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="seabttle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seabattle.js" beforeDir="false" afterPath="$PROJECT_DIR$/seabattle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,8 @@
       <workItem from="1656521423769" duration="4329000" />
       <workItem from="1656577937654" duration="9422000" />
       <workItem from="1656608707808" duration="9159000" />
-      <workItem from="1656750169768" duration="8964000" />
+      <workItem from="1656750169768" duration="8991000" />
+      <workItem from="1656947360775" duration="3823000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1655917690288</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656587223732</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="seabttle">
+      <created>1656786651855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656786651855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +165,7 @@
     <MESSAGE value="delete" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="dom" />
+    <MESSAGE value="seabttle" />
+    <option name="LAST_COMMIT_MESSAGE" value="seabttle" />
   </component>
 </project>

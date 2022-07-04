@@ -2,14 +2,10 @@
     box-sizing: border-box;
     outline: none;
     border: none;
+    margin: 0;
+    padding: 0;
 }
-body{
-    /*background: darkslategrey;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+
 /*.wrap{*/
 /*    padding: 30px;*/
 /*    background: #000;*/
@@ -36,12 +32,21 @@ body{
 /*.block.active{*/
 /*    display: block;*/
 /*}*/
+.bg{
+    background: url("./bg.jpg") no-repeat center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .wrap{
     width: 500px;
     display: flex;
     flex-wrap: wrap;
     background: #005662;
     padding: 10px;
+
 }
 .square{
     width: 50px;
@@ -50,6 +55,8 @@ body{
     margin: 5px;
     position: relative;
     cursor: pointer;
+    text-align: center;
+    font-size: 35px;
 }
 .name-field{
     width: fit-content;
@@ -62,5 +69,11 @@ body{
     margin: auto;
     font-size: 15px;
     font-weight: 700;
-
+    text-align: center;
+}
+.square.damage{
+    background: red;
+}
+.square.miss{
+    background: green;
 }
