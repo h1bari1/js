@@ -45,8 +45,11 @@
 .turn-text, .win-text{
     font-size: 30px;
     color: red;
-    margin-top: 20px;
+    margin: 20px 0;
 }
 .restart-button{
-
+    padding: 20px 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
 }
