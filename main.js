@@ -52,7 +52,7 @@ function playerTurn(player,flagP,img){
 }
 
 
-var turn = document.querySelector('.turn-text').innerHTML = 'X - turn'
+// var turn = document.querySelector('.turn-text').innerHTML = 'X - turn'
 var square = document.querySelectorAll('.square')
 square.forEach(function (elem,index){
     elem.addEventListener('click',function (e){
@@ -63,12 +63,12 @@ square.forEach(function (elem,index){
             if(!settings.flag){
                 playerTurn(settings.xPath,true,img)
                 settings.winX.push(index + 1)
-                turn.innerHTML = 'O - turn'
+                // turn.innerHTML = 'O - turn'
             }
             else{
                 playerTurn(settings.oPath,false,img)
                 settings.winO.push(index + 1)
-                turn.innerHTML = 'X - turn'
+                // turn.innerHTML = 'X - turn'
 
             }
             elem.append(img)
