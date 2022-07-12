@@ -4,6 +4,7 @@
     <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="seabttle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seabattle.js" beforeDir="false" afterPath="$PROJECT_DIR$/seabattle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -72,8 +73,8 @@
       <list>
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="Node.js.main.js (2)" />
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>

@@ -24,9 +24,9 @@
 //     'passive': false
 // }
 // btn.addEventListener('click',function (e){
-     // console.log('event', e.target) //target - получает элемент и\или то что внутри
-     // console.log('event', e.currentTarget) // - получает текущий элемент элемент
-     // console.log('event', e.which) /
+// console.log('event', e.target) //target - получает элемент и\или то что внутри
+// console.log('event', e.currentTarget) // - получает текущий элемент элемент
+// console.log('event', e.which) /
 // },opt)
 //
 // var wrap = document.querySelector('.wrap')
@@ -121,3 +121,100 @@
 //         console.log(elem.dataset.id)
 //     }
 // })
+// var btn = document.querySelector('.btn')
+
+// btn.addEventListener('mousedown',function (e){
+//     console.log('mousedown', e)
+// })
+// btn.addEventListener('mouseup',function (e){
+//     console.log('mouseup', e)
+// })
+// btn.addEventListener('click',function (e){
+//     console.log('click', e)
+// })
+// btn.addEventListener('contextmenu',function (e){
+//     console.log('contextmenu', e)
+// })
+// var block = document.querySelector('.block')
+// block.addEventListener('mouseover',function (e){
+//     console.log('mouseover', e.target)
+//     console.log('relatedTarget', e.relatedTarget)                  // откуда навелся
+//         var target = e.target.closest('span')
+//         if(!target) return
+//         target.style.cssText = 'background: pink;'
+// })
+// block.addEventListener('mouseout',function (e){
+//     console.log('mouseout', e.target)
+//     console.log('relatedTarget', e.relatedTarget)                // куда ушел
+//         var target = e.target.closest('span')
+//         if(!target) return
+//         target.style.cssText = 'background: green;'
+// })
+
+// block.addEventListener('mouseenter',function (e){  // лучше mouseover не срабатывает всплытие и не срабатывает на внутренние элементы
+//
+//
+// })
+// block.addEventListener('mouseleave',function (e){
+//
+// })
+
+
+// var block = document.querySelector('.block')
+// var x = document.querySelector('.x')
+// var y = document.querySelector('.y')
+// var opt = {
+//     move: false,
+//     down: false,
+//     up: false,
+// }
+// block.addEventListener('mousemove',function (e){
+//     // x.innerHTML = e.clientX
+//     // y.innerHTML = e.clientY
+//     x.innerHTML = e.pageX
+//     y.innerHTML = e.pageY
+// })
+// block.addEventListener('mousemove',function (e){
+//     var target = e.target.closest('span')
+//     if (target && opt.down){
+//         target.style.left = e.clientX - (target.offsetWidth / 2) + 'px';
+//         target.style.top = e.clientY - (target.offsetHeight / 2) + 'px';
+//
+//     }
+// })
+// block.addEventListener('mousedown', function (e) {
+//     var target = e.target.closest('span')
+//     if (target) {
+//         opt.down = true
+//         target.style.position = 'fixed'
+//     }
+//     console.log(target)
+// })
+// block.addEventListener('mouseup', function (e) {
+//         opt.down = false
+// })
+
+// var block = document.querySelector('.block')
+// console.log(block.getBoundingClientRect())      // Получение объекта свойств элемента
+// console.log(window.innerWidth)   // ширина окна до скрола
+
+//
+// document.addEventListener('keydown',function (e){
+//     console.log(e.code, ' - ' , e.key )
+// })
+// document.addEventListener('keyup',function (e){
+//     console.log(e.code, ' - ' , e.key )
+// })
+
+
+// document.addEventListener('keydown',function (e){
+//
+//     // if(e.code === 'KeyW' && (e.shiftKey || e.metaKey)){
+//     //     console.log('test')
+//     // }
+//     // if(e.code === 'Escape'){
+//     //     document.querySelector('.block').hidden = true
+//     // }
+//     console.log(e.repeat)
+// })
+

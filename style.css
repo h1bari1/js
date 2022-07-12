@@ -6,32 +6,39 @@
     padding: 0;
 }
 
-/*.wrap{*/
-/*    padding: 30px;*/
-/*    background: #000;*/
-/*}*/
-/*span{*/
-/*    background: red;*/
-/*}*/
-/*.btn{*/
-/*    padding: 15px 25px;*/
-/*    background: #369;*/
-/*    text-transform: uppercase;*/
-/*    font-weight: 700;*/
-/*    color: white;*/
-/*    cursor: pointer;*/
-/*    margin: 5px;*/
-/*}*/
-/*.block{*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    background: gray;*/
-/*    margin: 10px;*/
-/*    !*display: none;*!*/
-/*}*/
-/*.block.active{*/
-/*    display: block;*/
-/*}*/
+.wrap{
+    padding: 30px;
+    background: #000;
+}
+.wrap *{
+    display: block;
+    margin: 20px;
+    color: red;
+}
+span{
+    background: red;
+    padding: 5px;
+    user-select: none;
+}
+.btn{
+    padding: 15px 25px;
+    background: #369;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+.block{
+    width: 300px;
+    height: 300px;
+    background: gray;
+    margin: 10px;
+    /*display: none;*/
+}
+.block.active{
+    display: block;
+}
 .bg{
     background: url("./bg.jpg") no-repeat center/cover;
     width: 100vw;
@@ -40,40 +47,40 @@
     justify-content: space-around;
     align-items: center;
 }
-.wrap{
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
-    background: #005662;
-    padding: 10px;
+/*.wrap{*/
+/*    width: 500px;*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    background: #005662;*/
+/*    padding: 10px;*/
 
-}
-.square{
-    width: 50px;
-    height: 50px;
-    background: #2edcce;
-    margin: 5px;
-    position: relative;
-    cursor: pointer;
-    text-align: center;
-    font-size: 35px;
-}
-.name-field{
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    font-size: 15px;
-    font-weight: 700;
-    text-align: center;
-}
-.square.damage{
-    background: red;
-}
-.square.miss{
-    background: green;
-}
+/*}*/
+/*.square{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background: #2edcce;*/
+/*    margin: 5px;*/
+/*    position: relative;*/
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*    font-size: 35px;*/
+/*}*/
+/*.name-field{*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*    font-size: 15px;*/
+/*    font-weight: 700;*/
+/*    text-align: center;*/
+/*}*/
+/*.square.damage{*/
+/*    background: red;*/
+/*}*/
+/*.square.miss{*/
+/*    background: green;*/
+/*}*/
