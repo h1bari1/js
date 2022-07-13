@@ -1,0 +1,22 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tank{
+    width: 100px;
+    position: relative;
+    top:  100px;
+    left: 100px;
+}
+.tank-img{
+    width: 100px;
+}
+.bullet{
+    position: absolute;
+    z-index: 10;
+    width: 10px;
+    right: 0;
+    top: calc(50% - 5px);
+    opacity: 0;
+}
