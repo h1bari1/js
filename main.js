@@ -218,3 +218,15 @@
 //     console.log(e.repeat)
 // })
 
+
+// ------------------------------------Scroll-----------------------------
+
+// window.addEventListener('scroll',function (e){
+//     console.log(scrollY)
+// })
+// -----------------------------------------------------
+
+// document.addEventListener('DOMContentLoaded',function (e){  // прогрузка документа перед выполнением скрипта
+//     console.log('1', document.readyState)  // состояние загрузки страницы
+//     console.log('2', document.querySelector('.wrap'))  // состояние загрузки страницы
+// })
