@@ -5,3 +5,18 @@
     list-style: none;
     text-decoration: none;
 }
+.slider-wrap{
+    width: 500px;
+    overflow: hidden;
+}
+.slider-wrap ul{
+    width: 10000px;
+    display: flex;
+}
+.slider-wrap li{
+    transition: 1s;
+    transform: translate(0px);
+}
+.slider-wrap li img{
+    width: 500px;
+}
