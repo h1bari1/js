@@ -12,11 +12,31 @@
 .slider-wrap ul{
     width: 10000px;
     display: flex;
+    transition: 1s ease-in-out;
 }
 .slider-wrap li{
     transition: 1s;
     transform: translate(0px);
+    object-fit: cover;
 }
 .slider-wrap li img{
     width: 500px;
+}
+.slider-dots{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.slider-dots .active{
+    background: red;
 }
