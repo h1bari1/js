@@ -12,7 +12,6 @@
 
 body {
     background: #000;
-    padding: 50px 0;
 }
 
 .popup {
@@ -35,10 +34,10 @@ body {
     border: 1px solid #FFFFFF33;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%),
     linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
-    box-shadow: 5px 5px 4px 0 #FFFFFF14 inset;
+    box-shadow: 1px 1px 4px 0 #FFFFFF14 inset;
     text-align: center;
     padding: 30px 20px 75px;
-    border-radius: 24px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -79,18 +78,67 @@ body {
 .app-wrap{
     width: 95%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    padding-left: 30px;
+    display: none;
+}
+.app-wrap.active{
+    display: flex;
 }
 .user-name{
     width: 100%;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     letter-spacing: 2px;
-    font-weight: 500;
-    border-bottom: 2px solid white;
-    padding-top: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
     background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
+}
+.app-wrap .input-error{
+    font-size: 10px;
+    color:red;
+    text-align: center;
+}
+.app-wrap p{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    padding-right: 80px;
+    color: white;
+    font-weight: 200;
+    line-height: 2;
+}
+.app-wrap p button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.app-wrap p button:hover,.app-wrap form input[type='button']:hover{
+    background: #11FFBD;
+}
+.app-wrap form{
+    width: 100%;
+}
+.app-wrap form input[type='button']{
+    padding: 8px;
+    border-radius: 0 8px 8px 0;
+    background: #fff;
+    cursor: pointer;
+}
+.app-wrap .task-input{
+    margin-top: 20px;
+    width: 60%;
+    padding: 8px;
+    border-radius: 8px 0 0 8px;
+}
+.checked{
+    text-decoration: line-through;
 }
