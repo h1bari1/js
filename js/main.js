@@ -4,6 +4,7 @@ let userOption = [
     {
         id: sessionStorage.length + 1,
         task: '',
+        done: false
     }
 ]
 signInButton.addEventListener('click', (e) => {
@@ -14,6 +15,7 @@ signInButton.addEventListener('click', (e) => {
     } else if (!users.includes(user)) {
         sessionStorage.setItem(user, JSON.stringify(userOption));
     }
+
     renderApp(user)
 })
 
@@ -25,9 +27,10 @@ const getUserName = () => {
 const createTaskText = (task) => {
     let taskWrap = document.querySelector('.app-wrap')
     let paragraph = document.createElement('p')
-    let doneButton = document.createElement('button')
+    let doneButton = document.createElement('input')
+    doneButton.setAttribute('type', 'button')
     doneButton.classList.add('done')
-    doneButton.innerHTML = 'done'
+    doneButton.value = 'done'
     paragraph.innerHTML = task
     paragraph.append(doneButton)
     taskWrap.append(paragraph)
@@ -41,26 +44,24 @@ const addItem = () => {
     let taskError = document.querySelector('.input-error')
     let userTasks = JSON.parse(sessionStorage.getItem(user))
     applyButton.addEventListener('click', () => {
-        console.log(userTasks)
         if (taskInput.value) {
             userTasks.push({id: userTasks.length + 1, task: taskInput.value, done: false})
             sessionStorage.setItem(user, JSON.stringify(userTasks))
+            createTaskText(taskInput.value)
             taskInput.value = ''
             taskError.innerHTML = '';
-            renderTasks(user,taskInput.value)
+            checkDone()
         } else {
             taskError.innerHTML = 'Field is empty. Please enter task.';
         }
     })
 }
-const renderTasks = (user,taskInput) => {
+const renderTasks = (user, taskInput) => {
     let users = Object.keys(sessionStorage)
     let userTasks = JSON.parse(sessionStorage.getItem(user))
-    console.log('1',userTasks)
     users.forEach((elem) => {
         if (elem === user) {
             userTasks.forEach((task) => {
-                console.log(task)
                 if (task.task && task.task !== taskInput) {
                     createTaskText(task.task)
                 }
@@ -80,6 +81,22 @@ const renderApp = (user) => {
         renderTasks(user)
     }
     addItem()
+    checkDone()
+}
+const checkDone = () => {
+    let users = Object.keys(sessionStorage)
+    let userTasks = JSON.parse(sessionStorage.getItem(getUserName()))
+    let doneButton = document.querySelectorAll('.done')
+    doneButton.forEach((elem, index) => {
+        elem.addEventListener('click', () => {
+            let task = elem.parentElement
+            if (task) {
+                task.classList.add('checked')
+                sessionStorage.setItem(users[index + 1], userTasks[index + 1].done === true)
+            }
+            elem.remove()
+        })
+    })
 }
 
 

@@ -113,7 +113,7 @@ body {
     font-weight: 200;
     line-height: 2;
 }
-.app-wrap p button{
+.app-wrap p .done{
     position: absolute;
     right: 0;
     top: 0;
