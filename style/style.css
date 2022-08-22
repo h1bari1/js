@@ -26,10 +26,12 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    min-height: 220px;
 }
 .user-choice-main,.ai-choice-main{
     width: 150px;
     margin: 0 100px;
+
 }
 .main img{
     width: 100%;
