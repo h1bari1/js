@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="seabttle">
+    <list default="true" id="a0aee824-f86b-4a57-b0ea-a37b69ea41ad" name="Changes" comment="promise all">
+      <change afterPath="$PROJECT_DIR$/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
@@ -46,10 +49,16 @@
     &quot;Project.color&quot;: &quot;34433d&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\romar\Desktop\js\images" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/js/loop/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -109,6 +118,8 @@
       <workItem from="1656947360775" duration="3823000" />
       <workItem from="1660985058155" duration="7129000" />
       <workItem from="1661065696921" duration="607000" />
+      <workItem from="1661433813569" duration="561000" />
+      <workItem from="1661440850711" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1655917690288</created>
