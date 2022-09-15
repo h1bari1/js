@@ -1,7 +1,7 @@
-// let slidesList = ['https://picsum.photos/500/500',
-//     'https://picsum.photos/600/600',
-//     'https://picsum.photos/700/700']
-let  slidesList = ['1.png',"2.jpg",'3.png','4.jpg'];
+let slidesList = ['https://picsum.photos/500/500',
+    'https://picsum.photos/600/600',
+    'https://picsum.photos/700/700']
+// let  slidesList = ['1.png',"2.jpg",'3.png','4.jpg'];
 const  btn = document.querySelectorAll('.slider-btn');
 const mover = document.querySelector('.slider-wrap ul');
 const dots = document.querySelector('.slider-dots');
@@ -14,7 +14,7 @@ const createSlides = () => {
     slidesList.forEach((elem,index) => {
         const slide = document.createElement('li')
         mover.append(slide)
-        slide.innerHTML = `<img src="./img/${elem}" alt='${elem}'>`
+        slide.innerHTML = `<img src="${elem}" alt='${elem}'>`
         const dot = document.createElement('span')
         dot.classList.add('dot')
         dots.append(dot)
